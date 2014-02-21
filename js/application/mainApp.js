@@ -2592,7 +2592,6 @@ function (ready, declare, connect, Deferred, event, array, dom, query, domClass,
             var _self = this;
             // configure popup
             _self.configurePopup();
-			alert(_self.options.customPopup);
             // create map deferred with options
             var mapDeferred = arcgisUtils.createMap(_self.options.webmap, 'map', {
                 mapOptions: {
